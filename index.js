@@ -101,15 +101,15 @@ if (require.main == module) {
 }
 
 
-// app.post('/',(req,res)=>{
+app.get('/',(req,res)=>{
 // // setInterval(main,3)
-// main();
-//  res.send(" sent successfully");
+ main();
+ res.send(" sent successfully");
 
 
 
 
-// })
+ })
 
 // https://git.heroku.com/branchmaker.git
 
